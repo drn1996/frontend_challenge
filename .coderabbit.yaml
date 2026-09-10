@@ -1,0 +1,9 @@
+auto_planning:
+  enabled: true
+  labels:
+    - "!wip"
+reviews:
+  tools:
+    eslint:
+      enabled: true
+      config_file: .eslintrc.js
